@@ -27,12 +27,13 @@ class Game:
                     self.running = False
 
     def update(self):
-        """Update game state. Game logic here."""
+        """Update game state."""
 
+        # Add game logic here
         pass
 
     def draw(self):
-        """Draw everything to the screen. Draw code here."""
+        """Draw everything to the screen."""
 
         self.screen.fill(self.background_color)
         # Add draw code here
